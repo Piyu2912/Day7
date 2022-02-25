@@ -9,7 +9,7 @@
     color: white;
 }
 .box1 {
-    background-image: linear-gradient(to left, orange, red);
+    background-image: linear-gradient(to left, orange 5%, red);
     float: left;
     clear: right;
     box-sizing: border-box;
