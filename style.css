@@ -1,0 +1,35 @@
+.box {
+    padding: 30px;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+.box1 {
+    background-image: linear-gradient(to left, orange, red);
+    float: left;
+    clear: right;
+    box-sizing: border-box;
+}
+.box2 {
+    background-image: radial-gradient(red, cyan);
+    clear: left;
+    float: right;
+    box-sizing: content-box;
+    /* default property content-box */
+    /* total width = width+ (2*padding)+(2+border-width) */
+    /* t-w = 400+(2*30)+(2*2)=400+60+4=464 */
+}
+.box3{
+    background-color: yellowgreen;
+    z-index: -2;
+    margin: 150px;
+}
+
+.box4{
+    background-color: cyan;
+    z-index: +1;
+}
