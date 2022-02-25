@@ -23,13 +23,19 @@
     /* total width = width+ (2*padding)+(2+border-width) */
     /* t-w = 400+(2*30)+(2*2)=400+60+4=464 */
 }
+.main {
+    position: absolute;
+    top: 900px;
+}
 .box3{
     background-color: yellowgreen;
-    z-index: -2;
+    z-index: +1;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
     margin: 150px;
 }
 
 .box4{
     background-color: cyan;
-    z-index: +1;
 }
